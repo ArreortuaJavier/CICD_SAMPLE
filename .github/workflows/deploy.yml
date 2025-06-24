@@ -7,5 +7,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: print variable
-              run: echo "${{ secrets.TOKEN_SECRET }}"
+              run: echo "No tengo variables secretas pero tengo salami"
 
